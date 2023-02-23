@@ -1,0 +1,13 @@
+DATA:
+  IMG_SIZE: 224
+MODEL:
+  TYPE: deformswinblockformer
+  NAME: swin_small_patch4_window7_224
+  NUM_CLASSES: 6
+  SWIN:
+    PATCH_SIZE: 4
+    IN_CHANS: 3
+    EMBED_DIM: 96
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 3, 6, 12, 24 ]
+    WINDOW_SIZE: 7
